@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap';
 import logo from '../../assets/img/logo.png'
 
+
 export const Header = () => {
     return (
         <Navbar collapseOnSelect bg="info" variant="dark" expand="md">

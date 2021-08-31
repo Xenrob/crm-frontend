@@ -1,50 +1,60 @@
 [{
         "id": 1,
+        "subject": "Email certificate expired",
         "status": "Client response pending",
         "addedAt": "2021-08-29"
     },
     {
         "id": 2,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2021-09-01"
     },
     {
         "id": 3,
+        "subject": "Issue with email certificate",
         "status": "Client response pending",
         "addedAt": "2021-09-09"
     },
     {
         "id": 4,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2021-10-02"
     },
     {
         "id": 5,
+        "subject": "Issue app crashing",
         "status": "Client response pending",
         "addedAt": "2021-10-03"
     },
     {
         "id": 6,
+        "subject": "Issue with email certificate",
         "status": "Client response pending",
         "addedAt": "2021-10-03"
     },
     {
         "id": 7,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2021-10-03"
     },
     {
         "id": 8,
+        "subject": "Email certificate expired",
         "status": "Client response pending",
         "addedAt": "2021-10-03"
     },
     {
         "id": 9,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2021-10-03"
     },
     {
         "id": 10,
+        "subject": "Issue app crashing",
         "status": "Client response pending",
         "addedAt": "2021-10-03"
     }
