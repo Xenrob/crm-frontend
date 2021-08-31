@@ -2,7 +2,28 @@
         "id": 1,
         "subject": "Email certificate expired",
         "status": "Client response pending",
-        "addedAt": "2021-08-29"
+        "addedAt": "2021-08-29",
+        "history": [{
+                "date": "20-10-10",
+                "message": "This is the message",
+                "messageBy": "Tom"
+            },
+            {
+                "date": "20-11-1",
+                "message": "This is the message",
+                "messageBy": "Jerry"
+            },
+            {
+                "date": "20-11-10",
+                "message": "This is the message",
+                "messageBy": "Jackson"
+            },
+            {
+                "date": "20-12-1",
+                "message": "This is the message",
+                "messageBy": "Robert"
+            }
+        ]
     },
     {
         "id": 2,

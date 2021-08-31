@@ -3,7 +3,6 @@ import {Form, Row, Col} from 'react-bootstrap'
 import PropTypes from 'prop-types'
 
 export const SearchForm = ({handleOnChange, str}) => {
-    console.log(str);
     return (
         <div>
             <Form>

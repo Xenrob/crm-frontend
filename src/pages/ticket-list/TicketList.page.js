@@ -45,7 +45,7 @@ export const TicketList = () => {
                     <SearchForm handleOnChange={handleOnChange} str={str} />
                 </Col>
             </Row>
-
+            
             <hr />
 
             <Row>
