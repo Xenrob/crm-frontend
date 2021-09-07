@@ -6,16 +6,21 @@
 
 header {
     grid-area: header;
+    /* background: url("./assets/bgImage/b3.jpg"); */
+    background: #002E6E;
 }
 
 main {
     grid-area: main;
     min-height: 88vh;
+    background: #EFEFEF;
+    /* background: url("./assets/bgImage/bg10.png"); */
 }
 
 footer {
     grid-area: footer;
-    background: rgb(182, 21, 21);
+    /* background: url("./assets/bgImage/b3.jpg"); */
+    background: #002E6E;
     padding: 1rem;
     color: white;
 }

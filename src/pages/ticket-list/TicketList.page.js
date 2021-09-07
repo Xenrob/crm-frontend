@@ -5,6 +5,9 @@ import { SearchForm } from '../../components/search-form/SearchForm.comp'
 import { TicketTable } from '../../components/ticket-table/TicketTable.comp'
 import tickets from '../../assets/data/dummy-tickets.json'
 
+//Link to wrap the Add New ticket button
+import {Link} from 'react-router-dom';
+
 export const TicketList = () => {
 
     //useStates
@@ -39,7 +42,9 @@ export const TicketList = () => {
 
             <Row className="mt-4">
                 <Col>
-                    <Button variant="info">Add New Ticket</Button>
+                    <Link to="/add-ticket"> 
+                        <Button variant="info">Add New Ticket</Button>
+                    </Link>
                 </Col>
                 <Col className="text-right">
                     <SearchForm handleOnChange={handleOnChange} str={str} />

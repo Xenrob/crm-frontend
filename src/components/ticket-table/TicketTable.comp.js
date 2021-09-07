@@ -2,6 +2,9 @@ import React from 'react';
 import {Table} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
+//Link to wrap our subject
+import {Link} from 'react-router-dom';
+
 export const TicketTable = ({tickets}) => {
     if(!tickets.length) return null;
     return (
@@ -19,7 +22,11 @@ export const TicketTable = ({tickets}) => {
                     tickets.map((row)=> (
                         <tr key={row.id}>
                             <td>{row.id}</td>
-                            <td>{row.subject}</td>
+                            <td>
+                                <Link to={`/ticket/${row.id}`}>
+                                    {row.subject}
+                                </Link>
+                            </td>
                             <td>{row.status}</td>
                             <td>{row.addedAt}</td>
                         </tr>

@@ -55,7 +55,7 @@ export const Entry = () => {
     }
 
     return (
-        <div className="entry-page bg-info">
+        <div className="entry-page bg-primary">
             <Jumbotron className='form-box'>
                 {frmLoad === "login" && <LoginForm 
                     handleOnChange={handleOnChange}

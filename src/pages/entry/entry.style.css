@@ -3,8 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background: url("../../assets/bgImage/bg13.png"); */
 }
 
 .form-box {
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 20px black;
 }

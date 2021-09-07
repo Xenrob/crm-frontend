@@ -57,7 +57,7 @@ export const AddTicketForm = ({
                             required
                         />
                     </Form.Group>
-                    <Button type="submit" variant="info" block>Login</Button>
+                    <Button type="submit" variant="info" block>Add Ticket</Button>
                 </Form>
         </Jumbotron>
     );
